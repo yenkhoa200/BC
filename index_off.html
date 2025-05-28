@@ -9,8 +9,87 @@
 
 </head>
 <body>
-
+    <div class="p-5 bg-warning text-white text-center">
+    <h1>World of phones</h1> 
+    </div>
     <h1>bootstrap</h1>
+<!--nav-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">PRODUCT</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">CONTRACT</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Product catalog
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">IPHONE</a></li>
+                <li><a class="dropdown-item" href="#">SAMSUNG</a></li>
+                <li><a class="dropdown-item" href="#">WATCH</a></li>
+            </ul>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        </div>
+    </div>
+    </nav>
+<!--Carouse-->
+<div class="container ">
+    <div class="row">
+        <div class="col pt-2">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="iphone/iPhone 16 Pro Max 1TB titanden.jpg" class="d-block w-100" alt="dtsp" width="100px" height="300px">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="samsung/Galaxy S25 Plus 5G (12GB+256GB).jpg" class="d-block w-100" alt="dtss" width="100px" height="300px">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="watch/Đồng Hồ Thông Minh Xiaomi Redmi Watch 5 Lite.jpg" class="d-block w-100" alt="watch" width="100px" height="300px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end carousecarouse-->
+
+<div class="p-5 bg-light text-white text-center">
+    <h1>Thanh vien</h1> 
+    </div>
     <!--js-->
 <script src="./asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
